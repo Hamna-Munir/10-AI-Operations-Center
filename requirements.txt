@@ -1,0 +1,19 @@
+# AI Operations Center - dependencies
+# Install: pip install -r requirements.txt
+
+# --- Core app ---
+streamlit>=1.35
+pandas>=2.0
+pydantic>=2.0
+python-dotenv>=1.0
+
+# --- Charts (dashboard, reports) ---
+plotly>=5.18
+
+# --- Testing ---
+pytest>=8.0
+
+# --- Added in later days (uncomment when needed) ---
+# anthropic>=0.30        # Day 66: AI email drafting (or your preferred LLM SDK)
+# python-dateutil>=2.9   # Day 66: scheduling helpers
+# fpdf2>=2.7             # Day 68: PDF report export
